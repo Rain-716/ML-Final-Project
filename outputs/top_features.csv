@@ -1,0 +1,81 @@
+﻿label,feature,weight
+anger,want,0.22874823804925154
+anger,want to,0.22874823804925154
+anger,annoyed,0.22874823804925154
+anger,feel annoyed,0.22874823804925154
+anger,annoyed and,0.22874823804925154
+anger,shout,0.22874823804925154
+anger,to shout,0.22874823804925154
+anger,and want,0.22874823804925154
+anger,people ignore,0.22036178175649684
+anger,get angry,0.22036178175649684
+anxiety,about meeting,0.15477307022145118
+anxiety,new people,0.15477307022145118
+anxiety,nervous,0.15477307022145118
+anxiety,meeting,0.15477307022145118
+anxiety,meeting new,0.15477307022145118
+anxiety,nervous about,0.15477307022145118
+anxiety,about,0.15477307022145118
+anxiety,feel nervous,0.15477307022145118
+anxiety,new,0.15477307022145118
+anxiety,exams,0.14415617262367933
+crisis,worth living,0.3407140993112249
+crisis,worth,0.3407140993112249
+crisis,life is,0.3407140993112249
+crisis,sometimes think,0.3407140993112249
+crisis,is,0.3407140993112249
+crisis,is not,0.3407140993112249
+crisis,living,0.3407140993112249
+crisis,not worth,0.3407140993112249
+crisis,not,0.3407140993112249
+crisis,life,0.3407140993112249
+loneliness,understands me,0.35805440465291527
+loneliness,understands,0.35805440465291527
+loneliness,one,0.35805440465291527
+loneliness,lonely because,0.35805440465291527
+loneliness,lonely,0.35805440465291527
+loneliness,no,0.35805440465291527
+loneliness,because,0.35805440465291527
+loneliness,feel lonely,0.35805440465291527
+loneliness,because no,0.35805440465291527
+loneliness,one understands,0.35805440465291527
+positive,with friend,0.398234535324856
+positive,feel hopeful,0.398234535324856
+positive,friend,0.398234535324856
+positive,after talking,0.398234535324856
+positive,hopeful,0.398234535324856
+positive,talking with,0.398234535324856
+positive,talking,0.398234535324856
+positive,hopeful after,0.398234535324856
+positive,with,0.32705149595347127
+positive,after,0.3236391931358857
+sadness,worthless,0.44418718861567563
+sadness,feel worthless,0.44418718861567563
+sadness,and feel,0.44418718861567563
+sadness,failed,0.44418718861567563
+sadness,failed test,0.44418718861567563
+sadness,test,0.44418718861567563
+sadness,test and,0.44418718861567563
+sadness,and,0.30324279951391214
+sadness,feel,0.11617571184646897
+sadness,whenever have,-0.017800115265740855
+self_esteem,myself,0.27851133689693414
+self_esteem,after making,0.17404736227328188
+self_esteem,embarrassed after,0.17404736227328188
+self_esteem,making mistake,0.17404736227328188
+self_esteem,mistake,0.17404736227328188
+self_esteem,making,0.17404736227328188
+self_esteem,embarrassed,0.17404736227328188
+self_esteem,feel embarrassed,0.17404736227328188
+self_esteem,when make,0.16902401387795155
+self_esteem,myself when,0.16902401387795155
+stress,small mistakes,0.18744867822382782
+stress,keep overthinking,0.18744867822382782
+stress,keep,0.18744867822382782
+stress,small,0.18744867822382782
+stress,overthinking small,0.18744867822382782
+stress,overthinking,0.18744867822382782
+stress,taking,0.1701288736983718
+stress,taking break,0.1701288736983718
+stress,break,0.1701288736983718
+stress,guilty for,0.1701288736983718

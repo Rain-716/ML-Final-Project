@@ -1,0 +1,14 @@
+              precision    recall  f1-score   support
+
+       anger       0.00      0.00      0.00         1
+     anxiety       0.11      1.00      0.20         1
+      crisis       0.00      0.00      0.00         1
+  loneliness       0.00      0.00      0.00         1
+    positive       0.00      0.00      0.00         1
+     sadness       0.00      0.00      0.00         1
+ self_esteem       0.00      0.00      0.00         1
+      stress       0.00      0.00      0.00         2
+
+    accuracy                           0.11         9
+   macro avg       0.01      0.12      0.03         9
+weighted avg       0.01      0.11      0.02         9
