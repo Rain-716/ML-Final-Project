@@ -1,0 +1,71 @@
+{
+  "accuracy": 0.7563127633078085,
+  "macro_f1": 0.724945903530616,
+  "weighted_f1": 0.756745945028092,
+  "per_class": {
+    "emotion": {
+      "precision": 0.7427014520989984,
+      "recall": 0.7855808861411644,
+      "f1": 0.7635396291370002,
+      "support": 31056
+    },
+    "family": {
+      "precision": 0.6200396825396826,
+      "recall": 0.7356088166060347,
+      "f1": 0.6728981109914848,
+      "support": 9346
+    },
+    "high_risk": {
+      "precision": 0.8662142510906446,
+      "recall": 0.9759694156198798,
+      "f1": 0.9178222907036466,
+      "support": 1831
+    },
+    "interpersonal": {
+      "precision": 0.7414405562693674,
+      "recall": 0.7337871194554566,
+      "f1": 0.737593984962406,
+      "support": 13369
+    },
+    "other": {
+      "precision": 0.8192830426818944,
+      "recall": 0.7785285944127541,
+      "f1": 0.7983860685920848,
+      "support": 68370
+    },
+    "relationship": {
+      "precision": 0.5955987880720778,
+      "recall": 0.7118353344768439,
+      "f1": 0.6485500955026915,
+      "support": 5247
+    },
+    "self_growth": {
+      "precision": 0.773247696174253,
+      "recall": 0.5756158403492361,
+      "f1": 0.6599535243996901,
+      "support": 9621
+    },
+    "sleep_body": {
+      "precision": 0.7706495589414595,
+      "recall": 0.5251366120218579,
+      "f1": 0.6246343841403965,
+      "support": 1830
+    },
+    "study_work": {
+      "precision": 0.6492055610724925,
+      "recall": 0.7620944239362736,
+      "f1": 0.7011350433461435,
+      "support": 10294
+    }
+  },
+  "report_text": "               precision    recall  f1-score   support\n\n      emotion       0.74      0.79      0.76     31056\n       family       0.62      0.74      0.67      9346\n    high_risk       0.87      0.98      0.92      1831\ninterpersonal       0.74      0.73      0.74     13369\n        other       0.82      0.78      0.80     68370\n relationship       0.60      0.71      0.65      5247\n  self_growth       0.77      0.58      0.66      9621\n   sleep_body       0.77      0.53      0.62      1830\n   study_work       0.65      0.76      0.70     10294\n\n     accuracy                           0.76    150964\n    macro avg       0.73      0.73      0.72    150964\n weighted avg       0.76      0.76      0.76    150964\n",
+  "fit_seconds": 4.929,
+  "val_accuracy": 0.7552,
+  "val_macro_f1": 0.7200902034876969,
+  "val_weighted_f1": 0.7555797641272007,
+  "ngram_range": [
+    2,
+    3
+  ],
+  "classifier": "ComplementNB"
+}

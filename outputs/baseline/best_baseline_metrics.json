@@ -1,0 +1,62 @@
+{
+  "accuracy": 0.9682904533531173,
+  "macro_f1": 0.9482770607674111,
+  "weighted_f1": 0.9684190990363543,
+  "per_class": {
+    "emotion": {
+      "precision": 0.9784276915983269,
+      "recall": 0.9565945388974755,
+      "f1": 0.967387941842101,
+      "support": 31056
+    },
+    "family": {
+      "precision": 0.9328389830508474,
+      "recall": 0.9422212711320351,
+      "f1": 0.9375066538911956,
+      "support": 9346
+    },
+    "high_risk": {
+      "precision": 1.0,
+      "recall": 0.99399235390497,
+      "f1": 0.9969871268145714,
+      "support": 1831
+    },
+    "interpersonal": {
+      "precision": 0.9484191776755232,
+      "recall": 0.9558680529583364,
+      "f1": 0.9521290466788362,
+      "support": 13369
+    },
+    "other": {
+      "precision": 0.9907294676778197,
+      "recall": 0.9878747988884014,
+      "f1": 0.9893000739693723,
+      "support": 68370
+    },
+    "relationship": {
+      "precision": 0.891036259893245,
+      "recall": 0.9226224509243377,
+      "f1": 0.9065543071161049,
+      "support": 5247
+    },
+    "self_growth": {
+      "precision": 0.9512344419506223,
+      "recall": 0.9691300280636108,
+      "f1": 0.9600988518766411,
+      "support": 9621
+    },
+    "sleep_body": {
+      "precision": 0.8657478305257784,
+      "recall": 0.926775956284153,
+      "f1": 0.8952230139878596,
+      "support": 1830
+    },
+    "study_work": {
+      "precision": 0.9201904761904762,
+      "recall": 0.9386050126287158,
+      "f1": 0.9293065307300182,
+      "support": 10294
+    }
+  },
+  "report_text": "               precision    recall  f1-score   support\n\n      emotion       0.98      0.96      0.97     31056\n       family       0.93      0.94      0.94      9346\n    high_risk       1.00      0.99      1.00      1831\ninterpersonal       0.95      0.96      0.95     13369\n        other       0.99      0.99      0.99     68370\n relationship       0.89      0.92      0.91      5247\n  self_growth       0.95      0.97      0.96      9621\n   sleep_body       0.87      0.93      0.90      1830\n   study_work       0.92      0.94      0.93     10294\n\n     accuracy                           0.97    150964\n    macro avg       0.94      0.95      0.95    150964\n weighted avg       0.97      0.97      0.97    150964\n"
+}

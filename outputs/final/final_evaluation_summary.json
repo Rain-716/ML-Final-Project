@@ -1,0 +1,74 @@
+{
+  "best_traditional_ml": {
+    "model": "sgd_hinge_alpha_1e-5_ngram_2_3",
+    "accuracy": 0.9682904533531173,
+    "macro_f1": 0.9482770607674111,
+    "weighted_f1": 0.9684190990363543,
+    "selection_metric": "validation_macro_f1",
+    "n_features": 524288,
+    "preset": "fast"
+  },
+  "baseline_selection_metric": "validation_macro_f1",
+  "baseline_max_train_samples": 80000,
+  "baseline_n_features": 524288,
+  "baseline_leakage_diagnostics": {
+    "group_key": "source_file::sample_id",
+    "group_overlap": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0
+    },
+    "exact_text_overlap": {
+      "train_val": 7074,
+      "train_test": 6914,
+      "val_test": 2333
+    },
+    "has_leakage": false,
+    "warnings": [
+      "train_val 存在 7074 条完全相同 text",
+      "train_test 存在 6914 条完全相同 text",
+      "val_test 存在 2333 条完全相同 text"
+    ],
+    "message": "OK：未发现 sample_id 对话级交叉泄漏。"
+  },
+  "bert_gpu": {
+    "accuracy": 0.99815,
+    "macro_f1": 0.9971134080134445,
+    "weighted_f1": 0.9981493959719986
+  },
+  "bert_epochs": 2,
+  "bert_best_val_macro_f1": 0.9972287103997982,
+  "bert_total_train_seconds": 30856.145,
+  "bert_leakage_diagnostics": {
+    "preprocess_stats_found": true,
+    "direct_group_overlap": {
+      "ok": true,
+      "group_col": "sample_id",
+      "train_groups": 206485,
+      "val_groups": 25811,
+      "test_groups": 25811,
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0
+    },
+    "stats_says_clean": true,
+    "direct_says_clean": true,
+    "safe_to_train": true
+  },
+  "bert_leakage_diagnostics_file": {
+    "preprocess_stats_found": true,
+    "direct_group_overlap": {
+      "ok": true,
+      "group_col": "sample_id",
+      "train_groups": 206485,
+      "val_groups": 25811,
+      "test_groups": 25811,
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0
+    },
+    "stats_says_clean": true,
+    "direct_says_clean": true,
+    "safe_to_train": true
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "accuracy": 0.4528894305927241,
+  "macro_f1": 0.06927030616928216,
+  "weighted_f1": 0.28234610566190876,
+  "per_class": {
+    "emotion": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 31056
+    },
+    "family": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 9346
+    },
+    "high_risk": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 1831
+    },
+    "interpersonal": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 13369
+    },
+    "other": {
+      "precision": 0.4528894305927241,
+      "recall": 1.0,
+      "f1": 0.6234327555235395,
+      "support": 68370
+    },
+    "relationship": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 5247
+    },
+    "self_growth": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 9621
+    },
+    "sleep_body": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 1830
+    },
+    "study_work": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 10294
+    }
+  },
+  "report_text": "               precision    recall  f1-score   support\n\n      emotion       0.00      0.00      0.00     31056\n       family       0.00      0.00      0.00      9346\n    high_risk       0.00      0.00      0.00      1831\ninterpersonal       0.00      0.00      0.00     13369\n        other       0.45      1.00      0.62     68370\n relationship       0.00      0.00      0.00      5247\n  self_growth       0.00      0.00      0.00      9621\n   sleep_body       0.00      0.00      0.00      1830\n   study_work       0.00      0.00      0.00     10294\n\n     accuracy                           0.45    150964\n    macro avg       0.05      0.11      0.07    150964\n weighted avg       0.21      0.45      0.28    150964\n"
+}

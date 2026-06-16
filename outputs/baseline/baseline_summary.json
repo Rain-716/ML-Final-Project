@@ -1,0 +1,446 @@
+{
+  "mode": "fast_hashing_validation_search",
+  "selection_metric": "validation_macro_f1",
+  "preset": "fast",
+  "n_features": 524288,
+  "max_train_samples": 80000,
+  "max_val_samples": 20000,
+  "max_test_samples": 0,
+  "leakage_diagnostics": {
+    "group_key": "source_file::sample_id",
+    "group_overlap": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0
+    },
+    "exact_text_overlap": {
+      "train_val": 7074,
+      "train_test": 6914,
+      "val_test": 2333
+    },
+    "has_leakage": false,
+    "warnings": [
+      "train_val 存在 7074 条完全相同 text",
+      "train_test 存在 6914 条完全相同 text",
+      "val_test 存在 2333 条完全相同 text"
+    ],
+    "message": "OK：未发现 sample_id 对话级交叉泄漏。"
+  },
+  "results": {
+    "dummy_most_frequent": {
+      "accuracy": 0.4528894305927241,
+      "macro_f1": 0.06927030616928216,
+      "weighted_f1": 0.28234610566190876,
+      "per_class": {
+        "emotion": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 31056
+        },
+        "family": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 9346
+        },
+        "high_risk": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1831
+        },
+        "interpersonal": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 13369
+        },
+        "other": {
+          "precision": 0.4528894305927241,
+          "recall": 1.0,
+          "f1": 0.6234327555235395,
+          "support": 68370
+        },
+        "relationship": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 5247
+        },
+        "self_growth": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 9621
+        },
+        "sleep_body": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1830
+        },
+        "study_work": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10294
+        }
+      },
+      "report_text": "               precision    recall  f1-score   support\n\n      emotion       0.00      0.00      0.00     31056\n       family       0.00      0.00      0.00      9346\n    high_risk       0.00      0.00      0.00      1831\ninterpersonal       0.00      0.00      0.00     13369\n        other       0.45      1.00      0.62     68370\n relationship       0.00      0.00      0.00      5247\n  self_growth       0.00      0.00      0.00      9621\n   sleep_body       0.00      0.00      0.00      1830\n   study_work       0.00      0.00      0.00     10294\n\n     accuracy                           0.45    150964\n    macro avg       0.05      0.11      0.07    150964\n weighted avg       0.21      0.45      0.28    150964\n",
+      "fit_seconds": 0.082,
+      "note": "most frequent label baseline"
+    },
+    "sgd_log_loss_alpha_1e-5_ngram_2_3": {
+      "accuracy": 0.9333483479505048,
+      "macro_f1": 0.9032081541477699,
+      "weighted_f1": 0.9331333116702486,
+      "per_class": {
+        "emotion": {
+          "precision": 0.9560754356648364,
+          "recall": 0.9027241112828439,
+          "f1": 0.9286341277596515,
+          "support": 31056
+        },
+        "family": {
+          "precision": 0.8817056396148556,
+          "recall": 0.8916113845495399,
+          "f1": 0.8866308453476619,
+          "support": 9346
+        },
+        "high_risk": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1831
+        },
+        "interpersonal": {
+          "precision": 0.9375786163522013,
+          "recall": 0.8920637295235245,
+          "f1": 0.9142550500210816,
+          "support": 13369
+        },
+        "other": {
+          "precision": 0.9514238804280134,
+          "recall": 0.9831797572034519,
+          "f1": 0.9670411877256837,
+          "support": 68370
+        },
+        "relationship": {
+          "precision": 0.8307890380724664,
+          "recall": 0.8608728797408043,
+          "f1": 0.84556345937851,
+          "support": 5247
+        },
+        "self_growth": {
+          "precision": 0.9031987414787624,
+          "recall": 0.8951252468558362,
+          "f1": 0.8991438713718939,
+          "support": 9621
+        },
+        "sleep_body": {
+          "precision": 0.7503461005999077,
+          "recall": 0.8885245901639345,
+          "f1": 0.8136102076557418,
+          "support": 1830
+        },
+        "study_work": {
+          "precision": 0.8937855402112104,
+          "recall": 0.8550612006994366,
+          "f1": 0.8739946380697051,
+          "support": 10294
+        }
+      },
+      "report_text": "               precision    recall  f1-score   support\n\n      emotion       0.96      0.90      0.93     31056\n       family       0.88      0.89      0.89      9346\n    high_risk       1.00      1.00      1.00      1831\ninterpersonal       0.94      0.89      0.91     13369\n        other       0.95      0.98      0.97     68370\n relationship       0.83      0.86      0.85      5247\n  self_growth       0.90      0.90      0.90      9621\n   sleep_body       0.75      0.89      0.81      1830\n   study_work       0.89      0.86      0.87     10294\n\n     accuracy                           0.93    150964\n    macro avg       0.90      0.91      0.90    150964\n weighted avg       0.93      0.93      0.93    150964\n",
+      "fit_seconds": 4.793,
+      "val_accuracy": 0.93305,
+      "val_macro_f1": 0.9001829925777227,
+      "val_weighted_f1": 0.9329205835594334,
+      "ngram_range": [
+        2,
+        3
+      ],
+      "classifier": "SGDClassifier"
+    },
+    "sgd_hinge_alpha_1e-5_ngram_2_3": {
+      "accuracy": 0.9656606873161814,
+      "macro_f1": 0.9437450423500346,
+      "weighted_f1": 0.9658530613856482,
+      "per_class": {
+        "emotion": {
+          "precision": 0.9799827666202691,
+          "recall": 0.95215095311695,
+          "f1": 0.9658664053568512,
+          "support": 31056
+        },
+        "family": {
+          "precision": 0.9334398296059638,
+          "recall": 0.9378343676439118,
+          "f1": 0.9356319385140905,
+          "support": 9346
+        },
+        "high_risk": {
+          "precision": 1.0,
+          "recall": 0.9961769524849808,
+          "f1": 0.9980848153214774,
+          "support": 1831
+        },
+        "interpersonal": {
+          "precision": 0.9536109646810754,
+          "recall": 0.947191263370484,
+          "f1": 0.9503902731912338,
+          "support": 13369
+        },
+        "other": {
+          "precision": 0.990148000234921,
+          "recall": 0.98635366388767,
+          "f1": 0.9882471900233004,
+          "support": 68370
+        },
+        "relationship": {
+          "precision": 0.8573675930781332,
+          "recall": 0.934819897084048,
+          "f1": 0.8944201312910285,
+          "support": 5247
+        },
+        "self_growth": {
+          "precision": 0.9334600760456274,
+          "recall": 0.9696497245608564,
+          "f1": 0.9512108080550599,
+          "support": 9621
+        },
+        "sleep_body": {
+          "precision": 0.9026598754951896,
+          "recall": 0.8715846994535519,
+          "f1": 0.8868501529051988,
+          "support": 1830
+        },
+        "study_work": {
+          "precision": 0.9052022041654992,
+          "recall": 0.9415193316495045,
+          "f1": 0.9230036664920718,
+          "support": 10294
+        }
+      },
+      "report_text": "               precision    recall  f1-score   support\n\n      emotion       0.98      0.95      0.97     31056\n       family       0.93      0.94      0.94      9346\n    high_risk       1.00      1.00      1.00      1831\ninterpersonal       0.95      0.95      0.95     13369\n        other       0.99      0.99      0.99     68370\n relationship       0.86      0.93      0.89      5247\n  self_growth       0.93      0.97      0.95      9621\n   sleep_body       0.90      0.87      0.89      1830\n   study_work       0.91      0.94      0.92     10294\n\n     accuracy                           0.97    150964\n    macro avg       0.94      0.95      0.94    150964\n weighted avg       0.97      0.97      0.97    150964\n",
+      "fit_seconds": 4.659,
+      "val_accuracy": 0.9657,
+      "val_macro_f1": 0.9423755367091472,
+      "val_weighted_f1": 0.9659320614218688,
+      "ngram_range": [
+        2,
+        3
+      ],
+      "classifier": "SGDClassifier"
+    },
+    "sgd_modified_huber_alpha_1e-5_ngram_2_3": {
+      "accuracy": 0.9651771283219841,
+      "macro_f1": 0.9381043925822515,
+      "weighted_f1": 0.9649838274611333,
+      "per_class": {
+        "emotion": {
+          "precision": 0.9722430852627111,
+          "recall": 0.958687532199897,
+          "f1": 0.9654177272653578,
+          "support": 31056
+        },
+        "family": {
+          "precision": 0.948544120915759,
+          "recall": 0.9132249090520008,
+          "f1": 0.9305494984736153,
+          "support": 9346
+        },
+        "high_risk": {
+          "precision": 0.9945593035908596,
+          "recall": 0.9983615510649918,
+          "f1": 0.9964568002180431,
+          "support": 1831
+        },
+        "interpersonal": {
+          "precision": 0.9577228327228328,
+          "recall": 0.9387388735133518,
+          "f1": 0.9481358365126733,
+          "support": 13369
+        },
+        "other": {
+          "precision": 0.9789836843240135,
+          "recall": 0.996094778411584,
+          "f1": 0.9874651103780766,
+          "support": 68370
+        },
+        "relationship": {
+          "precision": 0.9224103977944073,
+          "recall": 0.8927005908137984,
+          "f1": 0.9073123486682809,
+          "support": 5247
+        },
+        "self_growth": {
+          "precision": 0.9504795663052544,
+          "recall": 0.9476145930776426,
+          "f1": 0.9490449175037735,
+          "support": 9621
+        },
+        "sleep_body": {
+          "precision": 0.8422837761447145,
+          "recall": 0.8142076502732241,
+          "f1": 0.8280077799388719,
+          "support": 1830
+        },
+        "study_work": {
+          "precision": 0.9259401750504953,
+          "recall": 0.9352049737711288,
+          "f1": 0.9305495142815717,
+          "support": 10294
+        }
+      },
+      "report_text": "               precision    recall  f1-score   support\n\n      emotion       0.97      0.96      0.97     31056\n       family       0.95      0.91      0.93      9346\n    high_risk       0.99      1.00      1.00      1831\ninterpersonal       0.96      0.94      0.95     13369\n        other       0.98      1.00      0.99     68370\n relationship       0.92      0.89      0.91      5247\n  self_growth       0.95      0.95      0.95      9621\n   sleep_body       0.84      0.81      0.83      1830\n   study_work       0.93      0.94      0.93     10294\n\n     accuracy                           0.97    150964\n    macro avg       0.94      0.93      0.94    150964\n weighted avg       0.96      0.97      0.96    150964\n",
+      "fit_seconds": 4.591,
+      "val_accuracy": 0.96405,
+      "val_macro_f1": 0.9364314297185565,
+      "val_weighted_f1": 0.9638761571017983,
+      "ngram_range": [
+        2,
+        3
+      ],
+      "classifier": "SGDClassifier"
+    },
+    "complement_nb_alpha_0.2_ngram_2_3": {
+      "accuracy": 0.7563127633078085,
+      "macro_f1": 0.724945903530616,
+      "weighted_f1": 0.756745945028092,
+      "per_class": {
+        "emotion": {
+          "precision": 0.7427014520989984,
+          "recall": 0.7855808861411644,
+          "f1": 0.7635396291370002,
+          "support": 31056
+        },
+        "family": {
+          "precision": 0.6200396825396826,
+          "recall": 0.7356088166060347,
+          "f1": 0.6728981109914848,
+          "support": 9346
+        },
+        "high_risk": {
+          "precision": 0.8662142510906446,
+          "recall": 0.9759694156198798,
+          "f1": 0.9178222907036466,
+          "support": 1831
+        },
+        "interpersonal": {
+          "precision": 0.7414405562693674,
+          "recall": 0.7337871194554566,
+          "f1": 0.737593984962406,
+          "support": 13369
+        },
+        "other": {
+          "precision": 0.8192830426818944,
+          "recall": 0.7785285944127541,
+          "f1": 0.7983860685920848,
+          "support": 68370
+        },
+        "relationship": {
+          "precision": 0.5955987880720778,
+          "recall": 0.7118353344768439,
+          "f1": 0.6485500955026915,
+          "support": 5247
+        },
+        "self_growth": {
+          "precision": 0.773247696174253,
+          "recall": 0.5756158403492361,
+          "f1": 0.6599535243996901,
+          "support": 9621
+        },
+        "sleep_body": {
+          "precision": 0.7706495589414595,
+          "recall": 0.5251366120218579,
+          "f1": 0.6246343841403965,
+          "support": 1830
+        },
+        "study_work": {
+          "precision": 0.6492055610724925,
+          "recall": 0.7620944239362736,
+          "f1": 0.7011350433461435,
+          "support": 10294
+        }
+      },
+      "report_text": "               precision    recall  f1-score   support\n\n      emotion       0.74      0.79      0.76     31056\n       family       0.62      0.74      0.67      9346\n    high_risk       0.87      0.98      0.92      1831\ninterpersonal       0.74      0.73      0.74     13369\n        other       0.82      0.78      0.80     68370\n relationship       0.60      0.71      0.65      5247\n  self_growth       0.77      0.58      0.66      9621\n   sleep_body       0.77      0.53      0.62      1830\n   study_work       0.65      0.76      0.70     10294\n\n     accuracy                           0.76    150964\n    macro avg       0.73      0.73      0.72    150964\n weighted avg       0.76      0.76      0.76    150964\n",
+      "fit_seconds": 4.929,
+      "val_accuracy": 0.7552,
+      "val_macro_f1": 0.7200902034876969,
+      "val_weighted_f1": 0.7555797641272007,
+      "ngram_range": [
+        2,
+        3
+      ],
+      "classifier": "ComplementNB"
+    }
+  },
+  "best_model": "sgd_hinge_alpha_1e-5_ngram_2_3",
+  "best_macro_f1": 0.9482770607674111,
+  "best_test_metrics": {
+    "accuracy": 0.9682904533531173,
+    "macro_f1": 0.9482770607674111,
+    "weighted_f1": 0.9684190990363543,
+    "per_class": {
+      "emotion": {
+        "precision": 0.9784276915983269,
+        "recall": 0.9565945388974755,
+        "f1": 0.967387941842101,
+        "support": 31056
+      },
+      "family": {
+        "precision": 0.9328389830508474,
+        "recall": 0.9422212711320351,
+        "f1": 0.9375066538911956,
+        "support": 9346
+      },
+      "high_risk": {
+        "precision": 1.0,
+        "recall": 0.99399235390497,
+        "f1": 0.9969871268145714,
+        "support": 1831
+      },
+      "interpersonal": {
+        "precision": 0.9484191776755232,
+        "recall": 0.9558680529583364,
+        "f1": 0.9521290466788362,
+        "support": 13369
+      },
+      "other": {
+        "precision": 0.9907294676778197,
+        "recall": 0.9878747988884014,
+        "f1": 0.9893000739693723,
+        "support": 68370
+      },
+      "relationship": {
+        "precision": 0.891036259893245,
+        "recall": 0.9226224509243377,
+        "f1": 0.9065543071161049,
+        "support": 5247
+      },
+      "self_growth": {
+        "precision": 0.9512344419506223,
+        "recall": 0.9691300280636108,
+        "f1": 0.9600988518766411,
+        "support": 9621
+      },
+      "sleep_body": {
+        "precision": 0.8657478305257784,
+        "recall": 0.926775956284153,
+        "f1": 0.8952230139878596,
+        "support": 1830
+      },
+      "study_work": {
+        "precision": 0.9201904761904762,
+        "recall": 0.9386050126287158,
+        "f1": 0.9293065307300182,
+        "support": 10294
+      }
+    },
+    "report_text": "               precision    recall  f1-score   support\n\n      emotion       0.98      0.96      0.97     31056\n       family       0.93      0.94      0.94      9346\n    high_risk       1.00      0.99      1.00      1831\ninterpersonal       0.95      0.96      0.95     13369\n        other       0.99      0.99      0.99     68370\n relationship       0.89      0.92      0.91      5247\n  self_growth       0.95      0.97      0.96      9621\n   sleep_body       0.87      0.93      0.90      1830\n   study_work       0.92      0.94      0.93     10294\n\n     accuracy                           0.97    150964\n    macro avg       0.94      0.95      0.95    150964\n weighted avg       0.97      0.97      0.97    150964\n",
+    "selected_from": "sgd_hinge_alpha_1e-5_ngram_2_3",
+    "best_val_macro_f1": 0.9423755367091472,
+    "final_refit_seconds": 5.587
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "group_key": "source_file::sample_id",
+  "group_overlap": {
+    "train_val": 0,
+    "train_test": 0,
+    "val_test": 0
+  },
+  "exact_text_overlap": {
+    "train_val": 7074,
+    "train_test": 6914,
+    "val_test": 2333
+  },
+  "has_leakage": false,
+  "warnings": [
+    "train_val 存在 7074 条完全相同 text",
+    "train_test 存在 6914 条完全相同 text",
+    "val_test 存在 2333 条完全相同 text"
+  ],
+  "message": "OK：未发现 sample_id 对话级交叉泄漏。"
+}

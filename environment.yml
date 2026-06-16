@@ -1,0 +1,27 @@
+name: cn-psy-dialog-ml
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - matplotlib
+  - seaborn
+  - joblib
+  - tqdm
+  - pytorch
+  - pytorch-cuda=11.8
+  - pip:
+      - transformers>=4.38
+      - accelerate>=0.27
+      - jieba>=0.42.1
+      - gradio>=4.0
+      - modelscope>=1.15
+      - huggingface-hub>=0.20
+      - regex>=2023.0.0

@@ -1,0 +1,62 @@
+{
+  "accuracy": 0.99815,
+  "macro_f1": 0.9971134080134445,
+  "weighted_f1": 0.9981493959719986,
+  "per_class": {
+    "emotion": {
+      "precision": 0.9988597491448119,
+      "recall": 0.9985750926189798,
+      "f1": 0.9987174005985464,
+      "support": 3509
+    },
+    "family": {
+      "precision": 0.9941444372153546,
+      "recall": 0.9954397394136808,
+      "f1": 0.9947916666666666,
+      "support": 1535
+    },
+    "high_risk": {
+      "precision": 1.0,
+      "recall": 0.986857825567503,
+      "f1": 0.9933854479855683,
+      "support": 837
+    },
+    "interpersonal": {
+      "precision": 0.9978666666666667,
+      "recall": 0.9973347547974414,
+      "f1": 0.9976006398293789,
+      "support": 1876
+    },
+    "other": {
+      "precision": 0.9998577120091064,
+      "recall": 0.9997154645041969,
+      "f1": 0.9997865831969837,
+      "support": 7029
+    },
+    "relationship": {
+      "precision": 0.993085566119274,
+      "recall": 0.9973958333333334,
+      "f1": 0.9952360329146817,
+      "support": 1152
+    },
+    "self_growth": {
+      "precision": 0.9993753903810119,
+      "recall": 0.9987515605493134,
+      "f1": 0.9990633780830471,
+      "support": 1602
+    },
+    "sleep_body": {
+      "precision": 0.9963985594237695,
+      "recall": 1.0,
+      "f1": 0.9981960312687913,
+      "support": 830
+    },
+    "study_work": {
+      "precision": 0.9957186544342508,
+      "recall": 0.9987730061349693,
+      "f1": 0.9972434915773354,
+      "support": 1630
+    }
+  },
+  "report_text": "               precision    recall  f1-score   support\n\n      emotion       1.00      1.00      1.00      3509\n       family       0.99      1.00      0.99      1535\n    high_risk       1.00      0.99      0.99       837\ninterpersonal       1.00      1.00      1.00      1876\n        other       1.00      1.00      1.00      7029\n relationship       0.99      1.00      1.00      1152\n  self_growth       1.00      1.00      1.00      1602\n   sleep_body       1.00      1.00      1.00       830\n   study_work       1.00      1.00      1.00      1630\n\n     accuracy                           1.00     20000\n    macro avg       1.00      1.00      1.00     20000\n weighted avg       1.00      1.00      1.00     20000\n"
+}

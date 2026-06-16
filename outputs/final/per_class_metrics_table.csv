@@ -1,0 +1,64 @@
+﻿model_key,display_name,label,precision,recall,f1,support
+best_traditional_ml,Best traditional ML (sgd_hinge_alpha_1e-5_ngram_2_3),emotion,0.9784276915983269,0.9565945388974755,0.967387941842101,31056.0
+best_traditional_ml,Best traditional ML (sgd_hinge_alpha_1e-5_ngram_2_3),family,0.9328389830508474,0.9422212711320351,0.9375066538911956,9346.0
+best_traditional_ml,Best traditional ML (sgd_hinge_alpha_1e-5_ngram_2_3),high_risk,1.0,0.99399235390497,0.9969871268145714,1831.0
+best_traditional_ml,Best traditional ML (sgd_hinge_alpha_1e-5_ngram_2_3),interpersonal,0.9484191776755232,0.9558680529583364,0.9521290466788362,13369.0
+best_traditional_ml,Best traditional ML (sgd_hinge_alpha_1e-5_ngram_2_3),other,0.9907294676778197,0.9878747988884014,0.9893000739693723,68370.0
+best_traditional_ml,Best traditional ML (sgd_hinge_alpha_1e-5_ngram_2_3),relationship,0.891036259893245,0.9226224509243377,0.9065543071161049,5247.0
+best_traditional_ml,Best traditional ML (sgd_hinge_alpha_1e-5_ngram_2_3),self_growth,0.9512344419506223,0.9691300280636108,0.9600988518766411,9621.0
+best_traditional_ml,Best traditional ML (sgd_hinge_alpha_1e-5_ngram_2_3),sleep_body,0.8657478305257784,0.926775956284153,0.8952230139878596,1830.0
+best_traditional_ml,Best traditional ML (sgd_hinge_alpha_1e-5_ngram_2_3),study_work,0.9201904761904762,0.9386050126287158,0.9293065307300182,10294.0
+baseline::dummy_most_frequent,dummy_most_frequent,emotion,0.0,0.0,0.0,31056.0
+baseline::dummy_most_frequent,dummy_most_frequent,family,0.0,0.0,0.0,9346.0
+baseline::dummy_most_frequent,dummy_most_frequent,high_risk,0.0,0.0,0.0,1831.0
+baseline::dummy_most_frequent,dummy_most_frequent,interpersonal,0.0,0.0,0.0,13369.0
+baseline::dummy_most_frequent,dummy_most_frequent,other,0.4528894305927241,1.0,0.6234327555235395,68370.0
+baseline::dummy_most_frequent,dummy_most_frequent,relationship,0.0,0.0,0.0,5247.0
+baseline::dummy_most_frequent,dummy_most_frequent,self_growth,0.0,0.0,0.0,9621.0
+baseline::dummy_most_frequent,dummy_most_frequent,sleep_body,0.0,0.0,0.0,1830.0
+baseline::dummy_most_frequent,dummy_most_frequent,study_work,0.0,0.0,0.0,10294.0
+baseline::sgd_log_loss_alpha_1e-5_ngram_2_3,sgd_log_loss_alpha_1e-5_ngram_2_3,emotion,0.9560754356648364,0.9027241112828439,0.9286341277596515,31056.0
+baseline::sgd_log_loss_alpha_1e-5_ngram_2_3,sgd_log_loss_alpha_1e-5_ngram_2_3,family,0.8817056396148556,0.8916113845495399,0.8866308453476619,9346.0
+baseline::sgd_log_loss_alpha_1e-5_ngram_2_3,sgd_log_loss_alpha_1e-5_ngram_2_3,high_risk,1.0,1.0,1.0,1831.0
+baseline::sgd_log_loss_alpha_1e-5_ngram_2_3,sgd_log_loss_alpha_1e-5_ngram_2_3,interpersonal,0.9375786163522013,0.8920637295235245,0.9142550500210816,13369.0
+baseline::sgd_log_loss_alpha_1e-5_ngram_2_3,sgd_log_loss_alpha_1e-5_ngram_2_3,other,0.9514238804280134,0.9831797572034519,0.9670411877256837,68370.0
+baseline::sgd_log_loss_alpha_1e-5_ngram_2_3,sgd_log_loss_alpha_1e-5_ngram_2_3,relationship,0.8307890380724664,0.8608728797408043,0.84556345937851,5247.0
+baseline::sgd_log_loss_alpha_1e-5_ngram_2_3,sgd_log_loss_alpha_1e-5_ngram_2_3,self_growth,0.9031987414787624,0.8951252468558362,0.8991438713718939,9621.0
+baseline::sgd_log_loss_alpha_1e-5_ngram_2_3,sgd_log_loss_alpha_1e-5_ngram_2_3,sleep_body,0.7503461005999077,0.8885245901639345,0.8136102076557418,1830.0
+baseline::sgd_log_loss_alpha_1e-5_ngram_2_3,sgd_log_loss_alpha_1e-5_ngram_2_3,study_work,0.8937855402112104,0.8550612006994366,0.8739946380697051,10294.0
+baseline::sgd_hinge_alpha_1e-5_ngram_2_3,sgd_hinge_alpha_1e-5_ngram_2_3,emotion,0.9799827666202691,0.95215095311695,0.9658664053568512,31056.0
+baseline::sgd_hinge_alpha_1e-5_ngram_2_3,sgd_hinge_alpha_1e-5_ngram_2_3,family,0.9334398296059638,0.9378343676439118,0.9356319385140905,9346.0
+baseline::sgd_hinge_alpha_1e-5_ngram_2_3,sgd_hinge_alpha_1e-5_ngram_2_3,high_risk,1.0,0.9961769524849808,0.9980848153214774,1831.0
+baseline::sgd_hinge_alpha_1e-5_ngram_2_3,sgd_hinge_alpha_1e-5_ngram_2_3,interpersonal,0.9536109646810754,0.947191263370484,0.9503902731912338,13369.0
+baseline::sgd_hinge_alpha_1e-5_ngram_2_3,sgd_hinge_alpha_1e-5_ngram_2_3,other,0.990148000234921,0.98635366388767,0.9882471900233004,68370.0
+baseline::sgd_hinge_alpha_1e-5_ngram_2_3,sgd_hinge_alpha_1e-5_ngram_2_3,relationship,0.8573675930781332,0.934819897084048,0.8944201312910285,5247.0
+baseline::sgd_hinge_alpha_1e-5_ngram_2_3,sgd_hinge_alpha_1e-5_ngram_2_3,self_growth,0.9334600760456274,0.9696497245608564,0.9512108080550599,9621.0
+baseline::sgd_hinge_alpha_1e-5_ngram_2_3,sgd_hinge_alpha_1e-5_ngram_2_3,sleep_body,0.9026598754951896,0.8715846994535519,0.8868501529051988,1830.0
+baseline::sgd_hinge_alpha_1e-5_ngram_2_3,sgd_hinge_alpha_1e-5_ngram_2_3,study_work,0.9052022041654992,0.9415193316495045,0.9230036664920718,10294.0
+baseline::sgd_modified_huber_alpha_1e-5_ngram_2_3,sgd_modified_huber_alpha_1e-5_ngram_2_3,emotion,0.9722430852627111,0.958687532199897,0.9654177272653578,31056.0
+baseline::sgd_modified_huber_alpha_1e-5_ngram_2_3,sgd_modified_huber_alpha_1e-5_ngram_2_3,family,0.948544120915759,0.9132249090520008,0.9305494984736153,9346.0
+baseline::sgd_modified_huber_alpha_1e-5_ngram_2_3,sgd_modified_huber_alpha_1e-5_ngram_2_3,high_risk,0.9945593035908596,0.9983615510649918,0.9964568002180431,1831.0
+baseline::sgd_modified_huber_alpha_1e-5_ngram_2_3,sgd_modified_huber_alpha_1e-5_ngram_2_3,interpersonal,0.9577228327228328,0.9387388735133518,0.9481358365126733,13369.0
+baseline::sgd_modified_huber_alpha_1e-5_ngram_2_3,sgd_modified_huber_alpha_1e-5_ngram_2_3,other,0.9789836843240135,0.996094778411584,0.9874651103780766,68370.0
+baseline::sgd_modified_huber_alpha_1e-5_ngram_2_3,sgd_modified_huber_alpha_1e-5_ngram_2_3,relationship,0.9224103977944073,0.8927005908137984,0.9073123486682809,5247.0
+baseline::sgd_modified_huber_alpha_1e-5_ngram_2_3,sgd_modified_huber_alpha_1e-5_ngram_2_3,self_growth,0.9504795663052544,0.9476145930776426,0.9490449175037735,9621.0
+baseline::sgd_modified_huber_alpha_1e-5_ngram_2_3,sgd_modified_huber_alpha_1e-5_ngram_2_3,sleep_body,0.8422837761447145,0.8142076502732241,0.8280077799388719,1830.0
+baseline::sgd_modified_huber_alpha_1e-5_ngram_2_3,sgd_modified_huber_alpha_1e-5_ngram_2_3,study_work,0.9259401750504953,0.9352049737711288,0.9305495142815717,10294.0
+baseline::complement_nb_alpha_0.2_ngram_2_3,complement_nb_alpha_0.2_ngram_2_3,emotion,0.7427014520989984,0.7855808861411644,0.7635396291370002,31056.0
+baseline::complement_nb_alpha_0.2_ngram_2_3,complement_nb_alpha_0.2_ngram_2_3,family,0.6200396825396826,0.7356088166060347,0.6728981109914848,9346.0
+baseline::complement_nb_alpha_0.2_ngram_2_3,complement_nb_alpha_0.2_ngram_2_3,high_risk,0.8662142510906446,0.9759694156198798,0.9178222907036466,1831.0
+baseline::complement_nb_alpha_0.2_ngram_2_3,complement_nb_alpha_0.2_ngram_2_3,interpersonal,0.7414405562693674,0.7337871194554566,0.737593984962406,13369.0
+baseline::complement_nb_alpha_0.2_ngram_2_3,complement_nb_alpha_0.2_ngram_2_3,other,0.8192830426818944,0.7785285944127541,0.7983860685920848,68370.0
+baseline::complement_nb_alpha_0.2_ngram_2_3,complement_nb_alpha_0.2_ngram_2_3,relationship,0.5955987880720778,0.7118353344768439,0.6485500955026915,5247.0
+baseline::complement_nb_alpha_0.2_ngram_2_3,complement_nb_alpha_0.2_ngram_2_3,self_growth,0.773247696174253,0.5756158403492361,0.6599535243996901,9621.0
+baseline::complement_nb_alpha_0.2_ngram_2_3,complement_nb_alpha_0.2_ngram_2_3,sleep_body,0.7706495589414595,0.5251366120218579,0.6246343841403965,1830.0
+baseline::complement_nb_alpha_0.2_ngram_2_3,complement_nb_alpha_0.2_ngram_2_3,study_work,0.6492055610724925,0.7620944239362736,0.7011350433461435,10294.0
+bert_gpu,BERT / MacBERT GPU,emotion,0.9988597491448119,0.9985750926189798,0.9987174005985464,3509.0
+bert_gpu,BERT / MacBERT GPU,family,0.9941444372153546,0.9954397394136808,0.9947916666666666,1535.0
+bert_gpu,BERT / MacBERT GPU,high_risk,1.0,0.986857825567503,0.9933854479855683,837.0
+bert_gpu,BERT / MacBERT GPU,interpersonal,0.9978666666666667,0.9973347547974414,0.9976006398293789,1876.0
+bert_gpu,BERT / MacBERT GPU,other,0.9998577120091064,0.9997154645041969,0.9997865831969837,7029.0
+bert_gpu,BERT / MacBERT GPU,relationship,0.993085566119274,0.9973958333333334,0.9952360329146817,1152.0
+bert_gpu,BERT / MacBERT GPU,self_growth,0.9993753903810119,0.9987515605493134,0.9990633780830471,1602.0
+bert_gpu,BERT / MacBERT GPU,sleep_body,0.9963985594237695,1.0,0.9981960312687913,830.0
+bert_gpu,BERT / MacBERT GPU,study_work,0.9957186544342508,0.9987730061349693,0.9972434915773354,1630.0
